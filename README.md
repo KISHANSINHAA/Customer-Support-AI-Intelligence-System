@@ -63,8 +63,8 @@ graph TD
 ### Step 1: Clone Repository & Create Virtual Environment
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd "AI Intern - Assessment"
+git clone https://github.com/KISHANSINHAA/Customer-Support-AI-Intelligence-System.git
+cd Customer-Support-AI-Intelligence-System
 
 # Create a clean virtual environment
 python -m venv venv
