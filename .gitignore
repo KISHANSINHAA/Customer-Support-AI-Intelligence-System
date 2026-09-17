@@ -30,7 +30,9 @@ htmlcov/
 *.swp
 *.swo
 
-# OS files
+# OS & App temporary files
 Thumbs.db
 Desktop.ini
 .DS_Store
+~$*
+
