@@ -118,7 +118,7 @@ To use a free Groq API key:
    ```env
    LLM_PROVIDER=auto
    GROQ_API_KEY=gsk_your_key_here
-   GROQ_MODEL=llama-3.3-70b-versatile
+   GROQ_MODEL=qwen/qwen3.8-27b
    ```
 
 ---
