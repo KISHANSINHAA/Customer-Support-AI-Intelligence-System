@@ -37,7 +37,7 @@ graph TD
 
     Service --> LLMEngine["LLM Engine\n(src/llm_engine.py)"]
     LLMEngine -->|Provider Strategy| Models{"LLM Provider"}
-    Models -->|Free Tier| Groq["Groq API (Llama-3.3-70b)"]
+    Models -->|Free Tier| Groq["Groq API (qwen3.8-27b)"]
     Models -->|Local Offline| Ollama["Ollama (Llama-3)"]
     Models -->|Zero-Config| Fallback["Deterministic Fallback Engine"]
 
