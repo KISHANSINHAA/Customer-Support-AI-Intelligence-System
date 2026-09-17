@@ -1,7 +1,7 @@
 # ⚡ DOTMappers Customer Support AI Intelligence System
 ### End-to-End AI System Sprint — AI Engineer Role Assessment
 **Company:** DOTMappers IT Pvt. Ltd.  
-**Author:** Candidate Submission  
+**Author:** Kishan Sinha  
 **Stack:** Python 3.12, FastAPI, SQLite, Pandas, Pydantic, Groq / Ollama / Zero-Cost Fallback, Streamlit, Modern Vanilla JS/CSS
 
 ---
@@ -142,7 +142,7 @@ curl -X GET "http://localhost:8000/health"
     "table": "support_tickets",
     "total_tickets": 500
   },
-  "llm_provider": "Groq (llama-3.3-70b-versatile)"
+  "llm_provider": "Groq (qwen/qwen3.8-27b)"
 }
 ```
 
@@ -170,7 +170,7 @@ curl -X POST "http://localhost:8000/query" \
   ],
   "summary": "Agent AGT-01 resolved the most tickets this month (March 2024), successfully resolving 16 tickets.",
   "execution_time_ms": 12.4,
-  "provider": "Groq (llama-3.3-70b-versatile)",
+  "provider": "Groq (qwen/qwen3.8-27b)",
   "success": true
 }
 ```
@@ -346,10 +346,3 @@ Result: **24 passed in ~5.7s**.
    - *Roadmap:* Migrate to PostgreSQL / DuckDB with Read Replicas and connection pooling (SQLAlchemy / Asyncpg) to support high-concurrency ticket streaming.
 
 ---
-
-## 10. Submission Information
-
-- **Repository:** Submitted as requested
-- **Recipient:** `RajathKumar@dotmappers.in`
-- **Subject:** `[AI Engineer Assessment] — Candidate Name`
-- **Walkthrough:** Ready for the 30-minute architecture walkthrough call.
